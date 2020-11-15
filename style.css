@@ -1,0 +1,16 @@
+h1{color:darkcyan;}
+* {border: solid greenyellow }
+h2{color:crimson;}
+.header{background-color: indianred;
+    display:flex; 
+    justify-content: space-between;
+}
+.games{background-color: lightblue;
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.icons{background-color: plum;
+    display:flex; 
+    justify-content: flex-end;
+}
