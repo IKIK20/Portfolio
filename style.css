@@ -1,16 +1,54 @@
-h1{color:darkcyan;}
-* {border: solid greenyellow }
-h2{color:crimson;}
-.header{background-color: indianred;
+h1{
+    color:darkcyan;
+    margin:20px;
+    padding:20px;
+    border:solid purple;
+  }
+/* * {border: solid greenyellow } */
+h2{color:#8f2283;}
+
+.header{background-color:#de8722;
     display:flex; 
-    justify-content: space-between;
+    justify-content: center;
+
 }
-.games{background-color: lightblue;
+.games{background-color: #13cff3;
     display:flex; 
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding:10px;
 }
-.icons{background-color: plum;
+.icons{background-color: #45aa23;
     display:flex; 
     justify-content: flex-end;
+}
+body{
+    background-color:lightgreen;
+    padding:20px;
+}
+
+.box{
+    padding:30px;
+}
+
+a:link{
+    color:rgb(4, 60, 4);
+}
+
+a:visited{
+    color:rgb(4, 65, 4);
+}
+
+.box{
+    position:relative;
+}
+.box p{
+    position:absolute;
+    top:-2%;
+    left:48%
+}
+.box:hover img{
+    opacity:0.7
 }
